@@ -34,7 +34,7 @@ mix-blend-mode: difference;
     border-radius: 50%;
     background-size: cover;
     object-position: center;
- position: absolute; 
+  position: absolute;  
  opacity: 0;
- transition: all linear 0.2s;
+ transition: all linear ease-in-out 0.3s;
 }

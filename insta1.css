@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* html,body{
+    height: 100%;
+    width: 100%;
+} */
+#headline{
+    font-size: 60px;
+    text-align: center;
+}
+.container{
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+ flex-direction: row;
+}
+#card{
+    height: 640px;
+    width: 340px;
+    border: 2px solid black;
+border-radius: 15px;
+padding: 30px;
+text-align: center;
+
+}
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+#card h1{
+    font-size: 25px;
+    margin: 10px 0;
+}
+#card h5{
+    font-size: 20px;
+    margin: 10px 0;
+    color: red;
+    font-weight: 800;
+
+}
+#card .btn{
+    margin: 5px 0;
+    cursor: pointer;
+}
+#card .img2{
+height: 25%;
+margin-top: 20px;
+margin-bottom: 50px;
+border-radius: 15px 15px 0 0;
+background-size: cover;
+}
+.card2{
+    height: 640px;
+    width: 340px;
+    padding: 20px 0;
+    border: 2px solid black;
+border-radius: 15px;
+text-align: center;
+}
+
+.card2 img{
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+}
+.card2 i{
+    font-size: 40px;
+    color: black;
+    float: left;
+    margin-right: 5px;
+}
+.card2 h2{
+    font-size: 20px;
+    font-weight: 1500;
+    font-style:oblique;
+}
+.card2 #heart2{
+    color: aliceblue;
+    font-size: 75px;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 11%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+a{
+    text-decoration: none;
+}
+@media(max-width:770px){
+    .container{ 
+         flex-wrap: wrap;
+    }
+}
+
+
