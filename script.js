@@ -3,6 +3,7 @@ var frns=document.querySelector("h5");
 var dill=document.querySelector("#heart");
 var dill2=document.querySelector("#heart2")
 var post=document.querySelector(".card2");
+
 var flag=0;
 
     btn.addEventListener("click",function(){
@@ -19,7 +20,7 @@ var flag=0;
         btn.style.backgroundColor="blue";
         flag=0;
         }
-    })
+    });
     dill.addEventListener("click", function(){
         if (dill.classList.contains("ri-heart-3-line")) {
             dill.classList.remove("ri-heart-3-line");
@@ -50,6 +51,7 @@ var flag=0;
         },1000)
    })
 
+  
 
 
 
